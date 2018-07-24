@@ -1,6 +1,6 @@
 # name: Watch Category
 # about: Watches a category for all the users in similarly named group
-nn# version: 0.1
+# version: 0.1
 # authors: Jay Pfaffman
 # url: https://github.com/pfaffman/discourse-watch-categories-mrf
 # source: https://github.com/amical/discourse-watch-category
@@ -60,8 +60,6 @@ def self.create_group_custom_fields
       puts "Can't find #{name}"
     end
   end
-end
-
 end
 
 after_initialize do
